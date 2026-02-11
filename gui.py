@@ -1,7 +1,5 @@
 import tkinter as tk
-import vault as V
 import guiFuncs as GF
-import hashlib as HL
 import os
 
 def guiMain():
