@@ -29,11 +29,6 @@ def saveVault(vault, masterKey):
     with open(VAULT_FILE, 'wb') as f:
         f.write(salt + encrypted_vault)
 
-
-
-    # with open('passwords.json', 'w') as file:
-    #     json.dump(vault, file)
-
 def loadVault(masterKey):
     if not os.path.exists(VAULT_FILE):
         return {}
