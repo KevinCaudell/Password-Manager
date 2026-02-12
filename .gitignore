@@ -8,6 +8,7 @@ __pycache__/
 vault.json
 .env
 passwords.enc
+utilities.py
 
 *.log
 *.tmp
