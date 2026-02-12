@@ -6,7 +6,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.backends import default_backend
 
-VAULT_FILE = 'passwords.enc'
+VAULT_FILE = 'vault.enc'
 
 def derive_key(master_password: str, salt: bytes):
     kdf = PBKDF2HMAC(
